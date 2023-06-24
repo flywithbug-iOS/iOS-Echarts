@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "iOS-Echarts"
-  s.version             = "1.4.4"
+  s.version             = "1.4.5"
   s.summary             = "A custom component for the ecomfe's echarts 2."
   s.homepage            = "https://github.com/Pluto-Y/iOS-Echarts"
   s.license             = { :type => "MIT", :file => 'LICENSE.md' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.frameworks          = 'UIKit'
   s.osx.frameworks          = 'AppKit', 'WebKit'
 
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.9'
 
 end
